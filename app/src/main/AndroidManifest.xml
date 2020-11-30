@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.smartcityc_22">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <application
+        android:name="com.example.smartcityc_22.AppClient"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.example.smartcityc_22.activity.GuildActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.smartcityc_22.activity.AppMainActivity" />
+        <activity android:name="com.example.smartcityc_22.activity.EmptyActivity" />
+        <activity android:name="com.example.smartcityc_22.activity.TccDetailsActivity" />
+        <activity android:name="com.example.smartcityc_22.activity.TccHistoryActivity" />
+        <activity android:name="com.example.smartcityc_22.activity.Dzbc4Activity" />
+        <activity android:name="com.example.smartcityc_22.activity.Dzbc3Activity" />
+        <activity android:name="com.example.smartcityc_22.activity.Dzbc2Activity" />
+        <activity android:name="com.example.smartcityc_22.activity.DzbcActivity" />
+        <activity android:name="com.example.smartcityc_22.activity.WdddActivity" />
+        <activity android:name="com.example.smartcityc_22.activity.MyOrderActivity" />
+        <activity android:name="com.example.smartcityc_22.activity.OrderDetailsActivity" />
+        <activity android:name="com.example.smartcityc_22.activity.YjfkActivity" />
+        <activity android:name="com.example.smartcityc_22.activity.ChooseActivity" />
+        <activity android:name="com.example.smartcityc_22.activity.WebViewActivity" />
+        <activity android:name="com.example.smartcityc_22.activity.LjwpzsActivity" />
+        <activity android:name="com.example.smartcityc_22.activity.LjqxDetialsActivity" />
+        <activity android:name="com.example.smartcityc_22.activity.YysmhsActivitry" />
+        <activity android:name="com.example.smartcityc_22.activity.YyshlsActivity" />
+        <activity android:name="com.example.smartcityc_22.activity.FjhsjActivity" />
+        <activity android:name="com.example.smartcityc_22.activity.XxylActivity" />
+        <activity android:name="com.example.smartcityc_22.activity.HhManagrActivity" />
+        <activity android:name="com.example.smartcityc_22.activity.AddGutopActivity" />
+        <activity android:name="com.example.smartcityc_22.activity.DfActivity" />
+
+        <activity android:name="com.example.smartcityc_22.activity.DFDetailsActivity" />
+        <activity android:name="com.example.smartcityc_22.activity.SfActivity" />
+        <activity android:name="com.example.smartcityc_22.activity.SFDetailsActivity" />
+    </application>
+
+</manifest>

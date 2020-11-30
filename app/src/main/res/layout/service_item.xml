@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <com.example.smartcityc_22.util.CircleImage
+        android:id="@+id/item_image"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:padding="10dp" />
+
+    <TextView
+        android:id="@+id/item_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="#333"
+        android:textSize="18sp" />
+
+
+</LinearLayout>
